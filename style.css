@@ -1,0 +1,130 @@
+/* Use a sans-serif font and set the default font size and line height */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Set the background color to a light blue and the text color to a dark blue */
+body {
+  background-color: #e9f3ff;
+  color: #3e6cb1;
+}
+
+/* Center the header and add a white background color */
+header {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Increase the font size of the website title and add some padding */
+h1 {
+  font-size: 32px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s;
+}
+
+form:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+  flex: 3;
+  height: 36px;
+  border: 1px solid #3e6cb1;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+button[type="submit"] {
+  flex: 1;
+  height: 36px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3e6cb1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #46a049;
+}
+
+/* Style the job listings */
+.results {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.job {
+  border: 1px solid #3e6cb1;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+  
+}
+
+.job:hover{
+  box-shadow: 0 8px 16px 0 rgba(15, 22, 112, 0.2), 0 12px 40px 0 rgba(15, 22, 112, 0.19);
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Style the "Apply Now" button */
+a {
+  background-color: #3e6cb1;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #46a049;
+}
+
+/* Center the footer */
+footer {
+  text-align: center;
+}

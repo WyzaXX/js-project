@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Acme Co.",
+    "location": "New York, NY",
+    "type": "Full-Time",
+    "apply_url": "https://www.acme-co.com/jobs/software-engineer"
+  },
+  {
+    "id": 2,
+    "title": "Web Developer",
+    "company": "Sofia Team B",
+    "location": "Sofia",
+    "type": "Part-Time",
+    "apply_url": "https://www.acme-co.com/jobs/web-developer"
+  },
+  {
+    "id": 3,
+    "title": "Marketing Manager",
+    "company": "Progress",
+    "location": "Dublin, England",
+    "type": "Full-Time",
+    "apply_url": "https://www.acme-co.com/jobs/marketing-manager"
+  },
+  {
+    "id": 4,
+    "title": "Customer Support Representative",
+    "company": "Acme Co.",
+    "location": "New York, NY",
+    "type": "Full-Time",
+    "apply_url": "https://www.acme-co.com/jobs/customer-support-representative"
+  },
+  {
+    "id": 5,
+    "title": "Product Manager",
+    "company": "Binary Company",
+    "location": "New York, NY",
+    "type": "Part-Time",
+    "apply_url": "https://www.acme-co.com/jobs/product-manager"
+  },
+  {
+    "id": 6,
+    "title": "Data Scientist",
+    "company": "NetWave",
+    "location": "New York, NY",
+    "type": "Part-Time",
+    "apply_url": "https://www.acme-co.com/jobs/data-scientist"
+  },
+  {
+    "id": 7,
+    "title": "Designer",
+    "company": "Acme Co.",
+    "location": "New York, NY",
+    "type": "Full-Time",
+    "apply_url": "https://www.acme-co.com/jobs/designer"
+  }
+]
