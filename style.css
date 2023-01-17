@@ -3,10 +3,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-}
-
-/* Set the background color to a light blue and the text color to a dark blue */
-body {
   background-color: #e9f3ff;
   color: #3e6cb1;
 }
@@ -43,7 +39,7 @@ form:hover {
 }
 
 label {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   flex: 1;
   text-align: right;
   margin-right: 10px;
@@ -96,11 +92,13 @@ button[type="submit"]:hover {
   margin: 10px;
   padding: 20px;
   width: 400px;
-  
 }
 
-.job:hover{
-  box-shadow: 0 8px 16px 0 rgba(15, 22, 112, 0.2), 0 12px 40px 0 rgba(15, 22, 112, 0.19);
+.job:hover {
+  box-shadow: 0 8px 16px 0 rgba(15, 22, 112, 0.2),
+    0 12px 40px 0 rgba(15, 22, 112, 0.19);
+  transform: scale(1.08);
+  transition: transform 0.4s;
 }
 
 h3 {
@@ -124,7 +122,6 @@ a:hover {
   background-color: #46a049;
 }
 
-/* Center the footer */
 footer {
   text-align: center;
 }
