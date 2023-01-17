@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Job Search</title>
+    <title>Workify</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="W.ico" />
   </head>
   <body>
     <header>
-      <h1>Job Search</h1>
+      <h1>Workify</h1>
+      <h2>Job for everyone and everywhere!</h2>
     </header>
     <main>
-      <form>
+      <form class="search">
+        Search By:
         <label for="keywords">Keywords:</label>
         <input type="text" id="keywords" name="keywords" />
         <label for="location">Location:</label>
         <input type="text" id="location" name="location" />
         <label>
-          Type:
           <input type="checkbox" name="part-time" value="part-time" checked />
           Part-Time
           <input type="checkbox" name="full-time" value="full-time" checked />
@@ -23,10 +25,11 @@
         </label>
         <button type="submit">Search</button>
       </form>
+      <h2 class="below-search">Currently Active Jobs</h2>
       <div class="results"></div>
     </main>
     <footer>
-      <p>Copyright 2023</p>
+      <p>F104061 Daniel Ivanov</p>
     </footer>
   </body>
   <script src="script.js"></script>

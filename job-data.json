@@ -2,106 +2,106 @@
   {
     "title": "Software Engineer",
     "company": "Acme Co.",
-    "location": "New York, NY",
+    "location": "New York, USA",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/software-engineer"
+    "apply_url": "https://www.amazon.com/jobs/software-engineer"
   },
   {
     "title": "Web Developer",
     "company": "Sofia Team B",
-    "location": "Sofia",
+    "location": "Sofia, Bulgaria",
     "type": "Part-Time",
-    "apply_url": "https://www.acme-co.com/jobs/web-developer"
+    "apply_url": "https://www.amazon.com/jobs/web-developer"
   },
   {
     "title": "Marketing Manager",
     "company": "Progress",
     "location": "Dublin, England",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/marketing-manager"
+    "apply_url": "https://www.amazon.com/jobs/marketing-manager"
   },
   {
     "title": "Customer Support Representative",
     "company": "Acme Co.",
-    "location": "New York, NY",
+    "location": "New York, USA",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/customer-support-representative"
+    "apply_url": "https://www.amazon.com/jobs/customer-support-representative"
   },
   {
-    "title": "Product Manager",
+    "title": "Team Lead",
     "company": "Binary Company",
-    "location": "New York, NY",
+    "location": "Montreal, Canada",
     "type": "Part-Time",
-    "apply_url": "https://www.acme-co.com/jobs/product-manager"
+    "apply_url": "https://www.amazon.com/jobs/product-manager"
   },
   {
     "title": "Data Scientist",
     "company": "NetWave",
-    "location": "New York, NY",
+    "location": "New York, USA",
     "type": "Part-Time",
-    "apply_url": "https://www.acme-co.com/jobs/data-scientist"
+    "apply_url": "https://www.amazon.com/jobs/data-scientist"
   },
   {
     "title": "Designer",
-    "company": "Acme Co.",
-    "location": "New York, NY",
+    "company": "Amazon",
+    "location": "London, UK",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/designer"
+    "apply_url": "https://www.amazon.com/jobs/designer"
   },
   {
-    "title": "Software Engineer",
+    "title": "Customer Support",
     "company": "Acme Co.",
-    "location": "New York, NY",
+    "location": "Philadelphia, USA",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/software-engineer"
+    "apply_url": "https://www.amazon.com/jobs/software-engineer"
   },
   {
-    "title": "Web Developer",
-    "company": "Sofia Team B",
-    "location": "Sofia",
+    "title": "Sales",
+    "company": "Zaplata",
+    "location": "Plovdiv, Bulgaria",
     "type": "Part-Time",
-    "apply_url": "https://www.acme-co.com/jobs/web-developer"
+    "apply_url": "https://www.amazon.com/jobs/web-developer"
   },
   {
     "title": "Marketing Manager",
     "company": "Progress",
     "location": "Dublin, England",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/marketing-manager"
+    "apply_url": "https://www.amazon.com/jobs/marketing-manager"
   },
   {
     "title": "Customer Support Representative",
-    "company": "Acme Co.",
-    "location": "New York, NY",
+    "company": "Port",
+    "location": "Varna, Bulgaria",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/customer-support-representative"
+    "apply_url": "https://www.amazon.com/jobs/customer-support-representative"
   },
   {
     "title": "Product Manager",
     "company": "Binary Company",
-    "location": "New York, NY",
+    "location": "New York, USA",
     "type": "Part-Time",
-    "apply_url": "https://www.acme-co.com/jobs/product-manager"
+    "apply_url": "https://www.amazon.com/jobs/product-manager"
   },
   {
     "title": "Data Scientist",
     "company": "NetWave",
-    "location": "New York, NY",
+    "location": "New York, USA",
     "type": "Part-Time",
-    "apply_url": "https://www.acme-co.com/jobs/data-scientist"
+    "apply_url": "https://www.amazon.com/jobs/data-scientist"
   },
   {
     "title": "Designer",
-    "company": "Acme Co.",
-    "location": "New York, NY",
+    "company": "Uber",
+    "location": "Miami, USA",
     "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/designer"
+    "apply_url": "https://www.amazon.com/jobs/designer"
   },
   {
-    "title": "Designer",
-    "company": "Acme Co.",
-    "location": "New York, NY",
-    "type": "Full-Time",
-    "apply_url": "https://www.acme-co.com/jobs/designer"
+    "title": "Developer - L1",
+    "company": "Amazon",
+    "location": "Los Angeles, USA",
+    "type": "Part-Time",
+    "apply_url": "https://www.amazon.com/jobs/designer"
   }
 ]
