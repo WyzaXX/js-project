@@ -1,36 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Workify</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="W.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workify - Find Your Dream Job</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>W</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/matrix-rain.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Workify</h1>
-      <h2>Job for everyone and everywhere!</h2>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Workify</h1>
+        <p class="tagline">Find your dream job, anywhere in the world</p>
+      </div>
     </header>
-    <main>
-      <form class="search">
-        Search By:
-        <label for="keywords">Keywords:</label>
-        <input type="text" id="keywords" name="keywords" />
-        <label for="location">Location:</label>
-        <input type="text" id="location" name="location" />
-        <label>
-          <input type="checkbox" name="part-time" value="part-time" checked />
-          Part-Time
-          <input type="checkbox" name="full-time" value="full-time" checked />
-          Full-Time
-        </label>
-        <button type="submit">Search</button>
-      </form>
-      <h2 class="below-search">Currently Active Jobs</h2>
-      <div class="results"></div>
+
+    <main class="main">
+      <div class="container">
+        <section class="search-section">
+          <form class="search-form">
+            <div class="search-form__group">
+              <label for="keywords">Keywords</label>
+              <input
+                type="text"
+                id="keywords"
+                name="keywords"
+                placeholder="Job title, skills, or company"
+              />
+            </div>
+
+            <div class="search-form__group">
+              <label for="location">Location</label>
+              <input
+                type="text"
+                id="location"
+                name="location"
+                placeholder="City, state, or remote"
+              />
+            </div>
+
+            <div class="search-form__group search-form__group--checkbox">
+              <label class="checkbox-label">
+                <input
+                  type="checkbox"
+                  name="part-time"
+                  value="part-time"
+                  checked
+                />
+                <span>Part-Time</span>
+              </label>
+              <label class="checkbox-label">
+                <input
+                  type="checkbox"
+                  name="full-time"
+                  value="full-time"
+                  checked
+                />
+                <span>Full-Time</span>
+              </label>
+            </div>
+
+            <button type="submit" class="search-button">Search Jobs</button>
+          </form>
+        </section>
+
+        <section class="jobs-section">
+          <h2 class="section-title">Currently Active Jobs</h2>
+          <div class="jobs-grid results"></div>
+        </section>
+      </div>
     </main>
-    <footer>
-      <p>F104061 Daniel Ivanov</p>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Workify. All rights reserved.</p>
+        <p>F104061 Daniel Ivanov</p>
+      </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
