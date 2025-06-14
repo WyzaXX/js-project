@@ -6,7 +6,6 @@ const fullTimeCheckbox = document.querySelector('input[name="full-time"]');
 
 const resultsContainer = document.querySelector(".results");
 
-// Fetch job data from the file
 fetch("job-data.json")
   .then((response) => response.json())
   .then((jobs) => {
@@ -14,29 +13,23 @@ fetch("job-data.json")
   });
 
 form.addEventListener("submit", (event) => {
-  // Prevent the default form submission behavior
   event.preventDefault();
 
-  // Get keywords and location
   const keywords = keywordInput.value.trim();
   const location = locationInput.value.trim();
 
-  // Fetch filtered data
   fetch("job-data.json")
     .then((response) => response.json())
     .then((jobs) => {
       let filteredJobs;
 
-      // If keyword and location values are empty display all jobs
       if (keywords === "" && location === "") {
         filteredJobs = jobs;
       } else if (keywords === "") {
-        // Filter by location
         filteredJobs = jobs.filter((job) => {
           return job.location.toLowerCase().includes(location.toLowerCase());
         });
       } else if (location === "") {
-        // Filter by company and job title
         filteredJobs = jobs.filter((job) => {
           return (
             job.title.toLowerCase().includes(keywords.toLowerCase()) ||
@@ -44,7 +37,6 @@ form.addEventListener("submit", (event) => {
           );
         });
       } else {
-        // Filter if both fields have data
         filteredJobs = jobs.filter((job) => {
           return (
             (job.title.toLowerCase().includes(keywords.toLowerCase()) &&
@@ -54,7 +46,6 @@ form.addEventListener("submit", (event) => {
         });
       }
 
-      // If both checkboxes are checked, display all jobs
       if (partTimeCheckbox.checked && fullTimeCheckbox.checked) {
         displayJobs(filteredJobs);
       } else if (partTimeCheckbox.checked) {
@@ -71,7 +62,6 @@ form.addEventListener("submit", (event) => {
     });
 });
 
-// Display the jobs on the page
 function displayJobs(jobs) {
   resultsContainer.innerHTML = "";
   if (jobs.length === 0) {
@@ -80,7 +70,6 @@ function displayJobs(jobs) {
     noJobsMessage.classList.add("no-jobs-message");
     resultsContainer.appendChild(noJobsMessage);
   }
-  // Iterate over the jobs and create an HTML element for each job
   jobs.forEach((job) => {
     const jobElement = document.createElement("div");
     jobElement.classList.add("job");

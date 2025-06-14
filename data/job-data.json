@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Senior Software Engineer",
+    "company": "GitHub",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "150000-200000",
+    "applyUrl": "https://github.com/about/careers"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Vercel",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "120000-180000",
+    "applyUrl": "https://vercel.com/careers"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Microsoft",
+    "location": "Redmond, USA",
+    "type": "Full-Time",
+    "salary": "100000-150000",
+    "applyUrl": "https://careers.microsoft.com"
+  },
+  {
+    "title": "Web Developer",
+    "company": "Netlify",
+    "location": "Remote",
+    "type": "Part-Time",
+    "salary": "80000-120000",
+    "applyUrl": "https://www.netlify.com/careers"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "DigitalOcean",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "130000-180000",
+    "applyUrl": "https://www.digitalocean.com/careers"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Cloudflare",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "140000-190000",
+    "applyUrl": "https://www.cloudflare.com/careers"
+  },
+  {
+    "title": "Developer Advocate",
+    "company": "MongoDB",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "110000-160000",
+    "applyUrl": "https://www.mongodb.com/careers"
+  },
+  {
+    "title": "Backend Engineer",
+    "company": "Stripe",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "120000-170000",
+    "applyUrl": "https://stripe.com/jobs"
+  },
+  {
+    "title": "Frontend Engineer",
+    "company": "Discord",
+    "location": "Remote",
+    "type": "Part-Time",
+    "salary": "90000-130000",
+    "applyUrl": "https://discord.com/jobs"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Notion",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "100000-150000",
+    "applyUrl": "https://www.notion.so/careers"
+  },
+  {
+    "title": "Product Engineer",
+    "company": "Linear",
+    "location": "Remote",
+    "type": "Part-Time",
+    "salary": "70000-100000",
+    "applyUrl": "https://linear.app/careers"
+  },
+  {
+    "title": "Senior Developer",
+    "company": "Atlassian",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "160000-220000",
+    "applyUrl": "https://www.atlassian.com/company/careers"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Figma",
+    "location": "Remote",
+    "type": "Part-Time",
+    "salary": "150000-200000",
+    "applyUrl": "https://www.figma.com/careers"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Vercel",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "130000-180000",
+    "applyUrl": "https://vercel.com/careers"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "GitHub",
+    "location": "Remote",
+    "type": "Part-Time",
+    "salary": "80000-120000",
+    "applyUrl": "https://github.com/about/careers"
+  }
+]
